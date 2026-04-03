@@ -117,9 +117,9 @@
 
 
   # vmware opengl
-  virtualisation.vmware.guest.enable = true;  # 装 open-vm-tools + 图形支持
-  hardware.graphics.enable = true;
-  hardware.graphics.extraPackages = with pkgs; [ mesa ];
+  # virtualisation.vmware.guest.enable = true;  # open-vm-tools
+  # hardware.graphics.enable = true;
+  # hardware.graphics.extraPackages = with pkgs; [ mesa ];
 
 
   # programs.hyprland = {
