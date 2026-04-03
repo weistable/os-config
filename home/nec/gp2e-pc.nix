@@ -15,13 +15,13 @@
       fastfetch.enable = true;
     };
     desktop = {
-      fonts.enable = false;
+      fonts.enable = true;
       niri.enable = true;
       noctalia.enable = true;
-      fcitx5.enable = false;
+      fcitx5.enable = true;
       hyprland.enable = false;
       wayland.enable = false;
-      browser.enable = false;
+      browser.enable = true;
     };
   };
 
