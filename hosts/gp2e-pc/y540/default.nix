@@ -1,6 +1,6 @@
 {
   imports = [
-    # ./y540.nix
+    ./y540.nix
     ./power.nix
     ./zram.nix
   ];
